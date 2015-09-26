@@ -1,0 +1,2 @@
+mvn deploy:deploy-file -DgeneratePom=false -Dpackaging=eclipse-plugin -Dfile=/home/f/workspace/bitbucket/projects/rcp/org.eclipse.fx.osgi_1.2.0.201501060601.jar -Durl=file:///home/f/.m2 -DartifactId=org.eclipse.fx.osgi -DgroupId=org.eclipse.fx.runtime -Dversion=1.2.0.201501060601
+

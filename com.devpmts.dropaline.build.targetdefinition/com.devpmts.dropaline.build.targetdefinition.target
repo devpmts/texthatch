@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="com.devpmts.dropaline.targetdefinition" sequenceNumber="12">
+<locations>
+<location path="${build_project}/plugins" type="Directory"/>
+</locations>
+</target>
+<!--
+-->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="com.devpmts.dropaline.core.dropalineplugin">
+      <client
+            class="com.dropaline.plugins.apis.googleCalendar.GoogleCalendarPimApi">
+      </client>
+   </extension>
+</plugin>

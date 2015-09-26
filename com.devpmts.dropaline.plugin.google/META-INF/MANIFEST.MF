@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Googlecalendar
+Bundle-SymbolicName: com.devpmts.dropaline.plugin.google;singleton:=true
+Bundle-Version: 1.0.0.0
+Bundle-Vendor: DEVPMTS
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: 
+ org.eclipse.e4.core.di,
+ com.devpmts.dropaline.core,
+ com.devpmts.util,
+ com.devpmts.dropaline.plugin.google-dependencies;bundle-version="1.0.0",
+ org.eclipse.core.runtime;bundle-version="3.10.0"
+Import-Package: 
+ javax.inject
+Export-Package: com.dropaline.plugins.apis.googleCalendar
+Bundle-ClassPath: .

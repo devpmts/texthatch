@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Catchnotes
+Bundle-SymbolicName: com.devpmts.dropaline.catchnotes
+Bundle-Version: 1.0.0.0
+Bundle-Vendor: DEVPMTS
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: com.devpmts.dropaline.core;bundle-version="1.0.0",
+ com.devpmts.util;bundle-version="1.0.0"

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_gJOusHQtEeS1OK7JH8oOAA" elementId="com.devpmts.dropaline" bindingContexts="_gJOuuXQtEeS1OK7JH8oOAA">
+  <children xsi:type="basic:Window" xmi:id="_JDGFgHbeEeSr-K9gY1qnSA" elementId="com.devpmts.dropaline.window.main" selectedElement="_JyDJ8HQwEeS1OK7JH8oOAA" label="Main" x="200" y="100" width="500" height="100">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_JyDJ8HQwEeS1OK7JH8oOAA" elementId="com.devpmts.dropaline.partsashcontainer.0">
+      <children xsi:type="basic:Part" xmi:id="_LSdz0HQwEeS1OK7JH8oOAA" elementId="com.devpmts.dropaline.part.lineinput" containerData="20" contributionURI="bundleclass://com.devpmts.dropaline.parent/com.devpmts.dropaline.parts.LineInputPart" label="Line Input"/>
+      <children xsi:type="basic:Part" xmi:id="_LtrJIHQwEeS1OK7JH8oOAA" elementId="com.devpmts.dropaline.part.noteinput" containerData="80" contributionURI="bundleclass://com.devpmts.dropaline.parent/com.devpmts.dropaline.parts.NoteInputPart" label="Note Input"/>
+    </children>
+  </children>
+  <rootContext xmi:id="_gJOuuXQtEeS1OK7JH8oOAA" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_gJOuunQtEeS1OK7JH8oOAA" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_gJOuu3QtEeS1OK7JH8oOAA" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <snippets xsi:type="basic:Window" xmi:id="_AnAPsHbuEeSr-K9gY1qnSA" elementId="com.devpmts.dropaline.window.settings" label="Settings" x="600" y="600" width="600" height="600">
+    <children xsi:type="basic:Part" xmi:id="_U3piEHW0EeSK0vao1_isQA" elementId="com.devpmts.dropaline.part.settings" contributionURI="bundleclass://com.devpmts.dropaline.parent/com.devpmts.dropaline.parts.SettingsPart"/>
+  </snippets>
+  <snippets xsi:type="basic:Window" xmi:id="_QuoakHbuEeSr-K9gY1qnSA" elementId="com.devpmts.dropaline.window.credentials" label="Credentials" x="300" y="300" width="400" height="200">
+    <children xsi:type="basic:Part" xmi:id="_Izm94HWzEeSK0vao1_isQA" elementId="com.devpmts.dropaline.part.credentials" contributionURI="bundleclass://com.devpmts.dropaline.parent/com.devpmts.dropaline.parts.CredentialsPart"/>
+  </snippets>
+  <addons xmi:id="_gJOusnQtEeS1OK7JH8oOAA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_gJOus3QtEeS1OK7JH8oOAA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_gJOutHQtEeS1OK7JH8oOAA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_gJOutXQtEeS1OK7JH8oOAA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_gJOutnQtEeS1OK7JH8oOAA" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_gJOut3QtEeS1OK7JH8oOAA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_gJOuuHQtEeS1OK7JH8oOAA" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
